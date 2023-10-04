@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    char name[100];
+    char x[100];
 
-    printf("Digite seu nome: ");
-    scanf("%s", name);
+    printf("Digite o seu nome: ");
+    scanf("%s", x);
 
-    printf("Ola %s.\n", name);
+    printf("Ola %s.\n", x);
 
     return 0;
 }
